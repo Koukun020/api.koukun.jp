@@ -1,0 +1,35 @@
+key:api
+ return: apiサーバーURL  "api.koukun.jp"
+
+key:domain
+ return: ドメイン　"koukun.jp"
+
+key:apistatus
+ return: サーバーステータス 稼働中：true 休止中:false
+
+key:apimentestatus
+ return: メンテナンスステータス　稼働中：false メンテナンス中:true
+
+key:apimentestart
+ return: メンテナンス開始unix時刻
+
+key:apimenteend
+ return: メンテナンス終了unix時刻
+
+key:apimentemes
+ return: メンテナンスメッセージ
+
+key:list
+ return 下位APIの一覧
+  key:url
+   return: APIURL
+  key:name
+   return: APIの名称
+  key:status
+   return: ステータス　公開：release 非公開(認証が必要):private
+
+key:result
+ return 正常:true エラー:false
+
+key:unix
+ return 現在のunix時刻
